@@ -6,7 +6,7 @@ $(document).ready(function(){
     ctx = $("#myCanvas")[0].getContext("2d");
 
     imgMain = new Image();
-    imgMain.src = "rpg/images/spritesheet.png";
+    imgMain.src = "rpg/images/spriteSheet.png";
     currentImgMainX = 0;
     currentImgMainY = 0;
     imgMain.onload = function(){
